@@ -16,6 +16,7 @@ SELECT dm.dept_no, dt.dept_name, e.emp_no, e.last_name, e.first_name
 FROM dept_manager_table dm
 INNER JOIN employees_table e ON dm.emp_no = e.emp_no
 INNER JOIN departments_table dt ON dt.dept_no = dm.dept_no 
+ORDER BY dm.dept_no ASC, e.emp_no ASC;
 
 
 -- List the  department of each employee with the following information: employee number, last name, first name, and department name.
