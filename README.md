@@ -4,7 +4,7 @@ This project tasked me with using SQL queries to analyze various data for my new
 
 ### ERD Creation
 
-Prior to beginning the analyses, I created an Entity Relationship Diagram (ERD) to understand the synergies amongst the various data tables provided by the organization. I used the online tool [Quick Database Diagrams](https://www.quickdatabasediagrams.com/) to create the ERD, and provide a clearer picture of the organization.
+Prior to beginning the analysis, I created an Entity Relationship Diagram (ERD) to understand the synergies amongst the various data tables provided by the organization. I used the online tool [Quick Database Diagrams](https://www.quickdatabasediagrams.com/) to create the ERD, and provide a clearer picture of the organization.
 
 
 ### Requested Outputs
