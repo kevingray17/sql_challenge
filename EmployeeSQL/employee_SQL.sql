@@ -24,7 +24,7 @@ INNER JOIN departments_table d ON
 de.dept_no=d.dept_no
 INNER JOIN employees_table e ON
 de.emp_no=e.emp_no
-ORDER BY e.emp_no ASC, e.last_name ASC;
+ORDER BY e.emp_no ASC;
 
 -- List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 SELECT first_name, last_name, sex
