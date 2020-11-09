@@ -43,7 +43,8 @@ de.emp_no=e.emp_no
 WHERE d.dept_name='Sales'
 
 -- List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
+-- SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
+SELECT d.dept_name, e.emp_no, e.last_name, e.first_name
 FROM dept_emp_table de
 INNER JOIN departments_table d ON
 de.dept_no=d.dept_no
