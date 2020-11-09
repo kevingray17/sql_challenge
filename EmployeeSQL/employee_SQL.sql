@@ -1,7 +1,7 @@
 
 -- List the following details of each employee: employee number, last name, first name, sex, and salary.
 
-SELECT s.salary, s.emp_no, e.last_name, e.emp_no, last_name, sex FROM salaries_table s
+SELECT s.salary, s.emp_no, e.last_name, e.emp_no, first_name, sex FROM salaries_table s
 JOIN employees_table e ON s.emp_no = e.emp_no;
 
 
