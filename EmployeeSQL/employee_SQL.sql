@@ -11,7 +11,8 @@ WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31'
 ORDER BY hire_date;
 
 -- List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-SELECT e.emp_no, dm.dept_no, dt.dept_name, e.first_name, e.last_name
+-- SELECT e.emp_no, dm.dept_no, dt.dept_name, e.first_name, e.last_name
+SELECT dm.dept_no, dt.dept_name, e.emp_no, e.last_name, e.first_name
 FROM dept_manager_table dm
 INNER JOIN employees_table e ON dm.emp_no = e.emp_no
 INNER JOIN departments_table dt ON dt.dept_no = dm.dept_no 
