@@ -4,4 +4,6 @@ This project allowed us to use SQL queries to analyze employee data for a specif
 
 #### Requested Outputs
 
-
+1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+1. List first name, last name, and hire date for employees who were hired in 1986.
+1. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
