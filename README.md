@@ -1,13 +1,13 @@
 # SQL CHALLENGE
 
-This project allowed us to use SQL queries to analyze employee data for a specific organization. Through the use of basic Postgres queries, including joins, I manipulated data from six different tables to gain a better understanding of the organization's universe of associates.
+This project tasked me with using SQL queries to analyze vatious data for a client organization. Through the use of basic Postgres queries, including joins, I manipulated data from six different tables to gain a better understanding of the organization's structure.
 
-#### ERD Creation
+### ERD Creation
 
 Prior to beginning the analyses, I created an Entity Relationship Diagram (ERD) to understand the synergies amongst the various data tables provided by the organization. I used the online tool [Quick Database Diagrams](https://www.quickdatabasediagrams.com/) to create the ERD, and provide a clearer picture of the organization.
 
 
-#### Requested Outputs
+### Requested Outputs
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 1. List first name, last name, and hire date for employees who were hired in 1986.
@@ -16,4 +16,4 @@ Prior to beginning the analyses, I created an Entity Relationship Diagram (ERD) 
 1. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 1. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 1. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-1.In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+1. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
