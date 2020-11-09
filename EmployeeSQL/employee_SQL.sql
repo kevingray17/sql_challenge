@@ -3,7 +3,7 @@
 
 SELECT e.emp_no, e.last_name, first_name, s.emp_no, sex, s.salary FROM salaries_table s
 JOIN employees_table e ON s.emp_no = e.emp_no
-ORDER BY last_name ASC;
+ORDER BY e.emp_no ASC;
 
 -- List first name, last name, and hire date for employees who were hired in 1986.
 SELECT first_name, last_name, hire_date FROM employees_table 
