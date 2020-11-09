@@ -7,7 +7,8 @@ ORDER BY e.emp_no ASC;
 
 -- List first name, last name, and hire date for employees who were hired in 1986.
 SELECT first_name, last_name, hire_date FROM employees_table 
-WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31'; 
+WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31'
+ORDER BY hire_date;
 
 -- List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 SELECT e.emp_no, dm.dept_no, dt.dept_name, e.first_name, e.last_name
