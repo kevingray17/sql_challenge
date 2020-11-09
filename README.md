@@ -1,6 +1,6 @@
 # SQL CHALLENGE
 
-This project tasked me with using SQL queries to analyze vatious data for a client organization. Through the use of basic Postgres queries, including joins, I manipulated data from six different tables to gain a better understanding of the organization's structure.
+This project tasked me with using SQL queries to analyze various data for my new employer -- Pewlett Hackard. Through the use of basic Postgres queries, including joins, I manipulated data from six different tables to gain a better understanding of the organization's employee data from the 1980s and 90s.
 
 ### ERD Creation
 
